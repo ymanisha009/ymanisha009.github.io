@@ -17,14 +17,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-.navbar a:hover {
-  background-color: #transparent;
-  transform: translate(10%,20%);
-/*  transition: width 10s, height 10s;
-*/  margin: 1%;
- /* width: 15%;
-  height: 15%
-*/}
+
 .sign {
   width: 0px;
   height: 10px;

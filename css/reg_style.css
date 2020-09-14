@@ -13,7 +13,7 @@ body {
   font-family: "Poppins-Regular";
   color: #333;
   font-size: 13px;
-  margin: 0; }
+  /* margin: 0; } */
 
 input, textarea,button,select {
   font-family: "Poppins-Regular";
@@ -115,7 +115,7 @@ select {
   select option[value=""][disabled] {
     display: none; }
 
-button {
+.buttonreg {
   border: none;
   width: 164px;
   height: 51px;
