@@ -21,15 +21,18 @@
 
 		<!-- STYLE CSS -->
 		<link rel="stylesheet" href="css/reg_style.css">
-		
+		<link rel="stylesheet" href="css/shop-homepage.css">
 		
 	</head>
 
 	<body>
-	  <!-- Navigation -->
+	    <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Refurbished.com</a>
+      <!-- <a class="navbar-brand" href="#">Refurbished.com</a> -->
+      <div class="sign">
+        <span class="fast-flicker">re</span>fur<span class="flicker">b</span>ished<span class="flicker">.com</span>
+      </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -43,62 +46,60 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          
           <li class="nav-item">
             <a class="nav-link" href="contactus.html">Contact</a>
           </li>
-		  <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="login.html">Login</a>
           </li>
         </ul>
       </div>
     </div>
-  </nav> 
+  </nav>
 
-	  <div class="wrapper" style="margin-top:60px; background-position: center;background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.7) 100%), url('images/bg-registration-form-1.jpg');background-attachment: fixed;background-size: cover;">
-  
+	  <div class="wrapper" style="background-position: center;background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.7) 100%), url('images/bg.png');background-attachment: fixed;background-size: cover;">
 
 			<div class="inner">
 				<div class="image-holder">
-					<img src="images/registration-form-1.png" alt="" style="height: 500px">
+					<img src="images/RF2.png" alt="" style="height:500px">
 				</div>
 				<form action="index.html">
 					<h3>Registration Form</h3>
 					<div class="form-group" style="margin-bottom:0px;">
-						<input type="text" placeholder="First Name" class="form-control">
-						<input type="text" placeholder="Last Name" class="form-control">
+						<input type="text" placeholder="First Name" class="form-control" required>
+						<input type="text" placeholder="Last Name" class="form-control" required>
 					</div>
 					<div class="form-wrapper">
-						<input type="text" placeholder="Username" class="form-control">
+						<input type="text" placeholder="Username" class="form-control" required>
 						<i class="zmdi zmdi-account"></i>
 					</div>
 					<div class="form-wrapper">
-						<input type="text" placeholder="Email Address" class="form-control">
+						<input type="text" placeholder="Email Address" class="form-control" required>
 						<i class="zmdi zmdi-email"></i>
 					</div>
 					<div class="form-wrapper">
 						<select name="" id="" class="form-control" style="font-size:13px;">
-							<option value="" disabled selected>Gender</option>
+							<option value="" disabled selected required>Gender</option>
 							<option value="male">Male</option>
 							<option value="femal">Female</option>
 						</select>
 						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
 						</div>
 					<div class="form-wrapper">
-						<input type="text" placeholder="Mobile Number" class="form-control">
+						<input type="text" placeholder="Mobile Number" class="form-control" required>
 						<i class="zmdi zmdi-local-phone"></i>
 					</div>
 					
 					<div class="form-wrapper">
-						<input type="password" placeholder="Password" class="form-control">
+						<input type="password" placeholder="Password" class="form-control" required>
 						<i class="zmdi zmdi-lock"></i>
 					</div>
 					<div class="form-wrapper">
-						<input type="password" placeholder="Confirm Password" class="form-control">
+						<input type="password" placeholder="Confirm Password" class="form-control" required>
 						<i class="zmdi zmdi-lock"></i>
 					</div>
 						<div class="form-wrapper">
-						<input type="text" placeholder="Address" class="form-control">
+						<input type="text" placeholder="Address" class="form-control" required>
 						<i class="zmdi zmdi-home"></i>
 					</div>
 					<button>Register
@@ -111,7 +112,7 @@
 		<!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Refurbished.com 2020</p>
     </div>
     <!-- /.container -->
   </footer>

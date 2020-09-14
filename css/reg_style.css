@@ -188,7 +188,7 @@ button {
     transform: translateX(0); } }
 @media (max-width: 1199px) {
   .wrapper {
-    background-position: right center; } }
+    background-position:  center; } }
 @media (max-width: 991px) {
   .inner form {
     padding-top: 10px;
@@ -196,14 +196,17 @@ button {
     padding-right: 30px; } }
 @media (max-width: 767px) {
   .inner {
-    display: block; }
+    display: block;
+	}
     .inner .image-holder {
+		display:block;
       width: 100%; }
     .inner form {
       width: 100%;
-      padding: 40px 0 30px; }
+	  margin-top:20px;
+    margin-bottom:20px;
+   }
+
 
   button {
     margin-top: 60px; } }
-
-/*# sourceMappingURL=style.css.map */
